@@ -1,6 +1,8 @@
 stm32flash
 ==========
 
+**[2015-12] upstream moved to: http://sourceforge.net/p/stm32flash/code/ci/master/tree/ You'll probably want to use that, as this version is outdated.**
+
 Open source flash program for the STM32 ARM processors using the ST serial bootloader over UART or I2C
 
 stm32flash 0.4 was released 2014-10-04 and is available at https://releases.stm32flash.googlecode.com/git/stm32flash-0.4.tar.gz
@@ -21,7 +23,7 @@ Features
 - start execution at specified address
 - software reset the device when finished if -R is specified
 - resume already initialized connection (for when reset fails, UART only)
-- GPIO signalling to enter bootloader mode (hardware dependent) 
+- GPIO signalling to enter bootloader mode (hardware dependent)
 
 Usage
 -----
