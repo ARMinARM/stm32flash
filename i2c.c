@@ -53,7 +53,6 @@ struct port_interface port_i2c = {
 /* To determine what functionality is present */
 #define I2C_FUNC_I2C 0x00000001
 #else
-#include <linux/i2c.h>
 #include <linux/i2c-dev.h>
 #endif
 
